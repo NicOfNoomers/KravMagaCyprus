@@ -1,0 +1,67 @@
+body{
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	top: 0;
+	
+}
+
+.imgBkKME {
+	position: fixed;
+	z-index: -100;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 110%;
+}
+
+.whiteBorder{
+	position: fixed;
+    height: 73%;
+    border-right: 4px white solid;
+    width: 10px;
+    left: 38%;
+    top: 14%;
+}
+
+.sp1{
+	color: white;
+    font-size: 41px;
+    font-family: 'Kumar One', cursive;
+    left: 40%;
+    position: fixed;
+    top: 30%;
+}
+
+.sp2{
+	color: white;
+    font-size: 41px;
+    font-family: 'Kumar One', cursive;
+    left: 40%;
+    position: fixed;
+    top: 36%;
+}
+
+.sp3{
+	color: white;
+    font-size: 30px;
+    font-family: 'Kumar One', cursive;
+    left: 40%;
+    position: fixed;
+    top: 54%;
+}
+
+.Created {
+	color: white;
+    font-size: 14px;
+    font-family: 'Kumar One', cursive;
+    right: 1%;
+    position: fixed;
+    bottom: 0;
+}
+
+.white {
+	color: white !important;
+}
