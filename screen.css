@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+h1, h2, p {
+	font-family: 'Anton', sans-serif;
+}
+
+body{
+	background-color: #252525;
+	overflow-x: hidden;	
+}
+header{
+}
+h1, h2{
+	text-align: center !important;
+}
+#BannerTop{
+	width: 100%;
+}
+
+#Footer{
+	background-color: #404040;
+	padding-bottom: 4px;
+	width: 102%;
+    margin-left: 0;
+    left: -10px;
+    position: relative;
+    border-radius: 0;
+    border: 0;
+    height: 100px;
+    box-shadow: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+div{
+	background-color: #999999;
+    width: 90%;
+    position: relative;
+    margin-top: 30px;
+    padding: 5px;
+    width: 102%;
+    border-radius: 0;
+    left: -10px;
+}
+
+.whiteText{
+	color: white;
+}
+
+.centerText{
+	text-align: center;
+}
+
+.leftText{
+	text-align: left;
+}
+
+.rightText{
+	text-align: right;
+}
+
+.rightFloat{
+	float: right;
+	margin-right: 1%;
+}
+
+.whiteBoxShadow{
+	box-shadow: 0px 0px 16px white;
+}
+
+.radius_border{
+	border-radius: 0px;
+}
+
+#Footer{
+	overflow: auto;
+}
+
+.size20Text{
+	font-size: 20px;
+}
+
+.size25Text{
+	font-size: 25px;
+}
+
+.inlineBlock{
+	display: inline-block;
+}
+
+.padding-right{
+	padding-right: 20px;
+}
+
+.blackText{
+	color: 	#0d0d0d;
+}
+
+.border{
+	border: 3px solid black;
+}
+
+.margin_right{
+	margin-right: 2%;
+}
+
+.text_decoration{
+	text-decoration: none;
+}
+
+.navBtn{
+	padding: 10px;
+}
+
+.navBtn:hover {
+	color: white;
+	background-color: gray;
+	box-shadow: 2px 0px 16px black;
+}
+
+#SlideShow{
+	border:none !important;
+	background-color: transparent;
+	width: 100%;
+}
+
+.SlideShowPics{
+	width: 102%;
+	position: relative;
+	left: -9px;
+}
+
+.Ad1{
+    position: absolute;
+    left: 16px;
+    height: 451px;
+    background-color: black;
+    width: 20%;
+}
+
+.leftFloat{
+	float: left;
+}
+
+
+#SocialBtns{
+	list-style-type: none;
+	position: fixed;
+	top: 20%;
+	right: 0%;
+}
+
+.FY_Images{
+	width: 50px;
+	padding: 5px;
+	transition-duration: 0.5s;
+}
+
+.SocialHover :hover{
+	background-color: white;
+	padding-right: 20px;
+}
+
+#SocialNetworks{
+	border: none;
+	background: none; 
+}
+
+#navigator{
+	width: 102%;
+    margin-left: 0;
+    left: -17px;
+    position: relative;
+    border: 0;
+}
+
+.FooterCreatorsText{
+	color: #737373;
+}
+
+.ProceedToCreator{
+	color: #737373;
+}
+
+.WhyChooseTxt{
+	color: red;
+}
+
+.WhyChooseTxtInfo{
+	padding-right: 2%;
+    font-size: 25px;
+    float: left;
+    width: 50%;
+}
+
+.LearnMoreBanner{
+	padding: 4%; 
+	width:40%;
+}
+
+#WhyChooseKMECY {
+	overflow: auto;
+}

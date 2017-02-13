@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="screen.css">
+	<title>Krav Maga Europe Cyprus</title>
+</head>
+<body>
+	<header class="whiteBoxShadow ">
+		<img id="BannerTop" src="Prototype/Labs/Images/Eagle Banner.png">
+	</header>
+	
+	<div class="blackText whiteBoxShadow centerText" id="navigator">
+		<ul>
+			<li onclick="" class="inlineBlock size20Text padding-right"><a class="blackText text_decoration navBtn" href="#SlideShowName">Home</a> </li>
+			<li class="inlineBlock size20Text padding-right"><a class="blackText text_decoration navBtn" href="#Equipement">Shop</a> </li>
+			<li class="inlineBlock size20Text padding-right"><a class="blackText text_decoration navBtn" href="#Trainer">Trainer</a> </li>
+			<li class="inlineBlock size20Text padding-right"><a class="blackText text_decoration navBtn" href="#aboutUs">About Us</a></li>
+			<li class="inlineBlock size20Text padding-right"><a class="blackText text_decoration navBtn" href="">Training Ranking</a></li>
+			<li class="inlineBlock size20Text padding-right"><a class="blackText text_decoration navBtn" href="">Contact Us</a></li>
+			
+		</ul>
+	</div>
+
+		<div id="SlideShow" name="SlideShowName">
+			<img id="1" class="SlideShowPics" src="Prototype/Labs/Images/15203198_915834081887445_7306730494168577963_n.jpg">
+			<img class="SlideShowPics" src="Prototype/Labs/Images/15241892_921072221363631_280208855458673148_n.jpg">
+			<img class="SlideShowPics" src="Prototype/Labs/Images/15390945_926262847511235_2602724722063383788_n.jpg">
+			<img class="SlideShowPics" src="Prototype/Labs/Images/15727321_940373232766863_5198646336922703530_n3.png">
+			<img class="SlideShowPics" src="Prototype/Labs/Images/15727321_940373232766863_5198646336922703530_n1.png">
+			<script type="text/javascript">
+				var myIndex = 0;
+				carousel()
+				function carousel(){
+					var i;
+					var x = document.getElementsByClassName('SlideShowPics');
+					for (i = 0; i < x.length; i++){
+						x[i].style.display = "none";
+					}
+					myIndex++;
+						if (myIndex > x.length) {myIndex = 1}
+							x[myIndex-1].style.display = "block";
+							setTimeout(carousel, 4000);
+						}
+					</script>
+		</div>
+	
+	<div id="WhyChooseKMECY">
+		<h1 class="	padding-right"><span class="WhyChooseTxt ">Why choose?</span><br>Krav Maga Europe Cyprus</h1>
+		<p class="centerText WhyChooseTxtInfo padding-right	">
+
+				Have you ever been in danger while walking in the streets and you didn’t know what to do? Was there someone who tried to attack you and the only think that you could do was to run away? Has anyone threatened you with a knife to steal your money and you just gave it to him? Even if nothing of these has happened in your life and you just want to find a way to learn how to defend yourself and exercise at the same time then you have come to the<br>
+
+		<span style="font-size: 40px; color:green;">RIGHT PLACE</span></p>
+		
+		<p class="centerText WhyChooseTxtInfo padding-right"	>	
+				Here at KME Cy we teach you how to attack those who think that are strong, those who like killing your emotions. Be the one who will teach them a lesson and make them stop participating in fights. Be your own protector. Join us and become your Angel protector. 
+		</p>
+		<img  class="LearnMoreBanner" src="Prototype/Labs/Images/LearnMoreBanner.jpg">
+
+	</div>
+	
+	<!-- <div id="Shop" name="Equipement" class=" centerText whiteBoxShadow " >
+		<h1 class="leftText blackText ">Shop</h1>
+		<h2 class="leftText blackText size20Text">Here at Krav Maga Europe Cyprus we use a variety of equipement to ensure that all the training is done safely and correctly. We do not want our fighters to get injured during the training. We use different types of fighting gear and you can choose what to buy to the following list</h2>
+	</div> -->
+
+	<div id="Trainer" class="centerText whiteBoxShadow ">
+		<h1 class="leftText blackText ">Georgiou Athos</h1>
+	</div>
+
+	<div id="aboutUs"  class="centerText whiteBoxShadow ">
+		<h1 class="leftText blackText ">About Us</h1>
+	</div>
+
+	<div id="Footer" class="whiteBoxShadow ">
+		<p class="FooterCreatorsText"><b>THE OFFICIAL WEBSITE OF KRAV MAGA EUROPE CYPRUS</b></p>
+		<a href=""><img id="nStudios_logo" src=""></a>
+		<p class=""><a class="ProceedToCreator margin_right rightFloat" href="">Created by NStudios</a></p>
+	</div>
+	
+	<div id="SocialNetworks">
+		<ul id="SocialBtns">
+			<li><a class="SocialHover" href=""><img class="FY_Images"  src="Prototype/Labs/Images/SocialBtn/facebook.png"></a></li>
+			<li><a class="SocialHover" href=""><img class="FY_Images" src="Prototype/Labs/Images/SocialBtn/youtube.png"></a></li>
+		</ul>
+	</div>
+				
+</body>
+</html>
